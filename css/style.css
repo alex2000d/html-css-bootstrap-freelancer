@@ -43,3 +43,27 @@
 .content{
     border-radius: 10px;
 }
+
+.content-start img{
+    width: 150px;
+    margin-top: 15px;
+}
+
+.content-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lines:after, .lines:before{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fs-15{
+    font-size: 15px;
+}
