@@ -24,8 +24,8 @@
     background-color: rgb(186, 75, 99);
 }
 
-.bg-black{
-    background-color: black;
+.bg-dark-black{
+    background-color: rgb(19, 15, 15);
 }
 
 .bg-dark-blu{
@@ -99,5 +99,17 @@
     border: none;
     border-bottom: 1px solid gray;
     display: block;
-
 }
+
+.br-radious{
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #fff;
+    padding: 10px;
+   
+}
+
+.color-acqua{
+    color: aqua;
+}
+
